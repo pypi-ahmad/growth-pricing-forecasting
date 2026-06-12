@@ -1,0 +1,38 @@
+# Python cache/build
+__pycache__/
+*.py[cod]
+*.pyo
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+
+# Notebook/runtime
+.ipynb_checkpoints/
+
+# Local env/config
+.env
+.env.*
+
+# Data, artifacts, and model outputs
+data/
+artifacts/
+outputs/
+checkpoints/
+models/
+reports/
+figures/
+*.csv
+*.parquet
+*.pt
+*.pth
+*.pkl
+*.joblib
+
+# Misc
+.cache/
+*.log
+.DS_Store
