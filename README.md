@@ -1,61 +1,36 @@
-# growth-pricing-forecasting
-
-## Overview
+# Growth Pricing Forecasting
 
 Growth analytics, pricing intelligence, and forecasting systems.
 
-## Tech Stack
+## Repository Purpose
 
-- Multi-project repository
+This repository groups related projects into a single, navigable codebase with consistent structure and indexing.
 
-## Repository Structure
+## Project Index
 
-- `CHANGELOG.md`
-- `CODE_OF_CONDUCT.md`
-- `CONTRIBUTING.md`
-- `customer-segmentation-retention/`
-- `demand-forecasting-timeseries/`
-- `insurance-cross-sell-targeting/`
-- `LICENSE`
-- `marketplace-pricing-intelligence/`
-- `personalized-hotel-ranking-engine/`
-- `README.md`
-- `retail-demand-forecasting-ops/`
-- `SECURITY.md`
+| # | Project | Folder | Source Directory | Source Repository | Source Commit |
+|---|---|---|---|---|---|
+| 1 | `customer-segmentation-retention` | `customer-segmentation-retention` | `customer-segmentation-retention` | https://github.com/pypi-ahmad/customer-segmentation-retention.git | `f9a2a4d536` |
+| 2 | `demand-forecasting-timeseries` | `demand-forecasting-timeseries` | `demand-forecasting-timeseries` | https://github.com/pypi-ahmad/demand-forecasting-timeseries.git | `de3c55d332` |
+| 3 | `insurance-cross-sell-targeting` | `insurance-cross-sell-targeting` | `insurance-cross-sell-targeting` | https://github.com/pypi-ahmad/insurance-cross-sell-targeting.git | `6bfed62ef9` |
+| 4 | `marketplace-pricing-intelligence` | `marketplace-pricing-intelligence` | `marketplace-pricing-intelligence` | https://github.com/pypi-ahmad/marketplace-pricing-intelligence.git | `377feac093` |
+| 5 | `personalized-hotel-ranking-engine` | `personalized-hotel-ranking-engine` | `personalized-hotel-ranking-engine` | https://github.com/pypi-ahmad/personalized-hotel-ranking-engine.git | `269780d9e0` |
+| 6 | `retail-demand-forecasting-ops` | `retail-demand-forecasting-ops` | `retail-demand-forecasting-ops` | https://github.com/pypi-ahmad/retail-demand-forecasting-ops.git | `af5447c24a` |
+
+## Layout
+
+- Each top-level folder is a standalone project migrated from the source workspace.
+- Heavy local-only artifacts (virtual environments, datasets, model weights, caches) are intentionally excluded.
 
 ## Getting Started
 
-### Prerequisites
-
-- Git
-- Runtime dependencies for this project's stack
-
-### Installation
-
 ```bash
-Review project-specific setup files in the repository root.
+git clone <this-repo-url>
+cd <this-repo-folder>
+cd <project-folder>
 ```
 
-## Usage
+## Maintenance Notes
 
-Use the project's documented entrypoint (CLI/app script) from this repository.
-
-## Testing
-
-Add tests under `tests/` and run the repository's configured test command.
-
-## Security
-
-Please review [SECURITY.md](SECURITY.md) for reporting and handling security issues.
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) before opening issues or pull requests.
-
-## Changelog
-
-Ongoing changes are tracked in [CHANGELOG.md](CHANGELOG.md).
-
-## License
-
-This project is licensed under the terms described in [LICENSE](LICENSE).
+- Keep project-level documentation inside each project folder.
+- Use this repository as a curated portfolio layer across related workstreams.
